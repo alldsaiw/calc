@@ -1,0 +1,21 @@
+*{
+    font-family: Raleway;
+}
+
+body {
+    margin: auto;
+    width: 50%;
+}
+
+.curr__list {
+    height: 2em;
+}
+
+.curr__input {
+    height: 2em;
+}
+
+.output {
+    height: 3em;
+}
+
