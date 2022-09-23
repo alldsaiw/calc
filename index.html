@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap" rel="stylesheet">
+    <title>Currency calculator</title>
+</head>
+
+
+<body>
+    <header>
+        <h1 class="header">Калькулятор валют</h1>
+    </header>
+    <div class="selectCurr">
+        <h2 class="body__header">Выберите валюту</h2>
+        <select name="CurrList" id="Currs" class="curr__list">
+            <option value="none">Выберите валюту</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+            <option value="JPY">JPY</option>
+            <option value="CNY">CNY</option>
+        </select>
+    </div>
+
+    <div class="curr__calc">
+        <label for="rub">RUB</label>
+        <input id="rub" type="text" class="curr__input">
+    </div>
+
+    <div class="output">
+        <h2 class="output__header">Результат</h2>
+        <p class="output__text">
+        </p>
+    </div>
+    <button class="output__clear">Очистить расчёт</button>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
