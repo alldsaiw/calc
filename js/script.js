@@ -26,7 +26,8 @@ document.addEventListener('DOMContentLoaded', () => {
         //работа с инпутом
                         inputRub.addEventListener('input', () => {
                             let result;
-                            if (selectList.value == 'none') {result = 'Выберите валюту из списка выше'} else {
+                            if (selectList.value == 'none') {result = 'Выберите валюту из списка выше'} 
+                            else {
                             result = (inputRub.value / calcCurrency).toFixed(2);}
         //вывод
                             outputResult.textContent = result;                     
